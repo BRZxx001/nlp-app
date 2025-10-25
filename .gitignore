@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Model cache (if transformers saves locally)
+~/.cache/
+.cache/
+huggingface/
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
