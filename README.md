@@ -9,12 +9,6 @@ It lets users perform:
 
 ---
 
-## 📸 Preview
-> *(Optional: Add your app screenshot below)*  
-> `![App Screenshot](Resources/screenshot.png)`
-
----
-
 ## 🧩 Features
 - Clean GUI built with **Tkinter**
 - Local JSON-based database (`db.json`) for users  
