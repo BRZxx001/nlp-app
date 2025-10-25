@@ -12,7 +12,7 @@ It lets users perform:
 ## 🧩 Features
 - Clean GUI built with **Tkinter**
 - Local JSON-based database (`db.json`) for users  
-- **Pre-trained Hugging Face models** for all NLP tasks  
+- **Pre-trained Hugging Face models** for NLP tasks  
 - Modular structure (`main.py`, `myapi.py`, `mydb.py`)  
 - Beginner-friendly and fully commented code
 
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 Or manually:
 ```bash
-pip install transformers torch pillow
+pip install transformers torch
 ```
 
 > 💡 Note: `tkinter` comes pre-installed with most Python versions.
@@ -67,23 +67,16 @@ NLP-App/
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/nlp-desktop-app.git
-   cd nlp-desktop-app
+   git clone https://github.com/<your-username>/nlp-app.git
+   cd nlp-app
    ```
 
-2. (Optional) Create virtual environment:
-   ```bash
-   python -m venv venv
-   venv\Scripts\activate   # Windows
-   source venv/bin/activate   # Mac/Linux
-   ```
-
-3. Install requirements:
+2. Install requirements:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Run the app:
+3. Run the app:
    ```bash
    python main.py
    ```
@@ -95,15 +88,7 @@ NLP-App/
 - On first run, the models are automatically downloaded.
 - User data (name, email, password) is stored in `db.json`.
 - GUI built using **Tkinter** handles login, registration, and navigation between NLP tools.
-
----
-
-## 💡 Future Improvements
-- Add text summarization or translation  
-- Add speech-to-text / text-to-speech  
-- Switch JSON DB → SQLite  
-- Add light/dark themes  
-
+  
 ---
 
 ## 🤝 Contributing
@@ -113,14 +98,9 @@ If you have ideas for improvement, feel free to fork and submit a PR.
 ---
 
 ## 🧑‍💻 Author
-**[Your Name or GitHub Username]**  
-🔗 [GitHub Profile](https://github.com/<your-username>)  
+ **GitHub -> BRZxx001**  
+🔗 [GitHub Profile](https://github.com/BRZxx001)  
 💬 “Making NLP accessible through simple GUIs.”
-
----
-
-## 🪪 License
-This project is licensed under the **MIT License**.
 
 ---
 
